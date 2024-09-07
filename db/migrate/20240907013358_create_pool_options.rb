@@ -4,7 +4,7 @@ class CreatePoolOptions < ActiveRecord::Migration[7.2]
       t.references :pool, null: false, foreign_key: true
       t.string :name
       t.string :photo
-      t.integer :votes
+      t.integer :votes, default: 0
 
       t.timestamps
     end
