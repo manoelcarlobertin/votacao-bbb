@@ -1,0 +1,1 @@
+Utilizando Rails 7.2.1, ruby 3.3.1, Tailwind e Postgresql nesse projeto de escolha de linguagens de programação feito com objetivo de estudar a tecnologia usando como fonte o youtube https://www.youtube.com/watch?v=uzrU-MYOUhA&amp;t=1724s Como criar o sistema de votação do BBB em Rails ministrado pelo Daniel Moreira no canal próprio Invenio Tech (2024)
