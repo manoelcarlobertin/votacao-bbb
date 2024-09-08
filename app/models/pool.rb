@@ -1,3 +1,3 @@
 class Pool < ApplicationRecord
-  """ representa model de votacao total """
+  has_many :pool_options
 end

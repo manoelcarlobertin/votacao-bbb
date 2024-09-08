@@ -18,7 +18,7 @@ ActiveRecord::Schema[7.2].define(version: 2024_09_07_013358) do
     t.bigint "pool_id", null: false
     t.string "name"
     t.string "photo"
-    t.integer "votes"
+    t.integer "votes", default: 0
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
     t.index ["pool_id"], name: "index_pool_options_on_pool_id"
